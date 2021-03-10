@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- 데스크탑 PC용 style, 최소폭 1200px 이상 -->
+    <link rel="stylesheet" media="screen and (min-width: 1200px)"
+                href="style/style_PC.css">
+    <!-- 태블릿 PC용 style, 너비 : 800px 이상 -->
+    <link rel="stylesheet" media="screen and (max-width: 1199px)"
+                href="style/style_Tablet.css">
+    <!-- 스마트폰용 style, 너비 : 800px 미만 -->
+    <link rel="stylesheet" media="screen and (max-width: 799px)"
+                href="style/style_Phone.css">
+</head>
+
+<body>
+    <div id="headerBG">
+        <header id="header">
+            <nav id="gnb1">
+                <ul id="mainMenu">
+                    <li><a href="#">제품안내</a></li>
+                    <li><a href="#">스토어</a></li>
+                    <li><a href="#">주문 / 배달</a></li>
+                </ul>
+            </nav>
+            <!--nav#gnb1-->
+
+            <div id="headerLogo">
+                <a href="#">Boulangerie</a>
+            </div>
+            <!--div#headerLogo-->
+
+            <nav id="gnb2">
+                <ul id="mainMenu">
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+            <!--nav#gnb2-->
+            <div id="searchIcon">
+                <a href="#"><img src="images/search_icon.png" alt="돋보기아이콘" width="30"></a>
+            </div>
+            <div id="tabIcon"></div>
+            <!--div#quesIcon-->
+        </header>
+    </div>
+    <!--div#headerLogo-->
+    <!--/////////////////////////////header///////////////////////////////-->
+
+    <div id="wrap">
+        <main id="main">
+            <div id="promotion"></div>
+            <!--div#promotionImg-->
+            <div id="newProduct">
+                <h2>신제품</h2>
+                <div id="newProImg">
+                    <div id="NproImg"><a href="#"><img src="images/strawBerry_Bread.jpg" alt="신제품이미지1" width="250"></a>
+                        <br>
+                        <span>딸기 로프 데니쉬</span>
+                    </div>
+
+                    <div id="NproImg"><a href="#"><img src="images/strawBerry_BoubleJuice.jpg" alt="신제품이미지2" width="250"></a>
+                        <br>
+                        <span>스트로베리 버블</span>
+                    </div>
+
+                    <div id="NproImg"><a href="#"><img src="images/strawBerry_RollBread.jpg" alt="신제품이미지3" width="250"></a>
+                        <br>
+                        <span>스트로베리 밀키롤</span>
+                    </div>
+
+                    <div id="NproImg"><a href="#"><img src="images/strawBerry_cake.jpg" alt="신제품이미지4" width="250"></a>
+                        <br>
+                        <span>딸기 속에 퐁당</span>
+                    </div>
+                </div>
+                <!--div#newProImg-->
+            </div>
+            <!--div#newProduct-->
+        </main> <!-- //////////////////////main#main//////////////////////// -->
+
+
+        <aside id="aside">
+            <div id="event">
+                <h2>이벤트</h2>
+                <div id="eventImg">
+                    <a href="#"><img src="images/Event_whiteDay.jpg" alt="화이트데이이벤트" width="250" height="280">
+                        <br>
+                        <span>2021-03-05 ~ 2021-03-14</span>
+                        <p>2021 화이트데이</p>
+                    </a>
+
+                    <a href="#"><img src="images/Event_pizzaBread.jpg" alt="파리의아침이벤트" width="250" height="280">
+                        <br>
+                        <span>2018-04-06 ~ 2021-12-31</span>
+                        <p>2021 파리의 아침</p>
+                    </a>
+                </div>
+                <!--div#eventImg-->
+            </div>
+            <!--div#event-->
+
+            <div id="notice">
+                <h2>공지사항</h2>
+                <div id="noticeTxt">
+                    <ul>
+                        <li><a href="#">블랑제리 1주년 감사 이벤트 안내
+                                <span>2021-03-14</span></a>
+                        </li>
+                        <li><a href="#">2021 화이트데이 기념 20%할인 이벤트
+                                <span>2021-03-05</span></a>
+                        </li>
+                        <li><a href="#">3.1절 고객센터 휴무 안내
+                                <span>2021-02-27 </span></a>
+                        </li>
+                        <li><a href="#">매장 내 마스크 필수 착용 안내문
+                                <span>2021-02-23</span></a>
+                        </li>
+                        <li><a href="#">블랑제리 도당점 오픈 기념 이벤트 안내
+                                <span>2021-02-18</span></a>
+                        </li>
+                        <li><a href="#">2021 발렌타인데이 이벤트 안내
+                                <span>2021-02-06</span></a>
+                        </li>
+                        <li><a href="#" class="notice">블랑제리 사이트 리뉴얼 안내
+                                <span>2021-01-25</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--div#noticeTxt-->
+            </div>
+            <!--div#notice-->
+        </aside> <!-- ///////////////////////aside#aside///////////////////////// -->
+
+        <footer id="footer">
+            <div id="etcContent">
+                <div id="siteMap">
+                    <ul id="siteMenu">
+                        <li><a href="#">제품안내</a></li>
+                        <li><a href="#">스토어</a></li>
+                        <li><a href="#">주문 / 배달</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li class="siteMap"><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+                <!--div#siteMap-->
+                <div id="Link">
+                    <div id="spcLink">
+                        <a href="http://www.spc.co.kr/contributionAll">
+                            <img src="images/spc_Logo.png" alt="SPC로고" width="70"></a>
+                    </div>
+                    <h1>SNS</h1>
+                    <div id="snsLink">
+                        <a href="#"><img src="images/facebook.png" alt="페이스북로고" width="35"></a>
+                        <a href="#"><img src="images/instagram.png" alt="" width="35"></a>
+                        <a href="#"><img class="youtubeLogo" src="images/youtubeLogo.png" alt="유튜브로고" width="60"></a>
+                    </div>
+                </div>
+                <!--div#Link-->
+            </div>
+            <!--div#etcContent-->
+
+            <div id="copy">
+                <div id="copyLink">
+                    <a href="#">회사소개</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">고객센터</a>
+                </div>
+                <!--div#copyLink-->
+                <div id="copyTxt">
+                    <p>경기도 성남시 중원구 대현동 길주로 31번길 (주)블랑제리</p>
+                    <p>All Rights Reserved © Boulangerie, SPCFoodville CO.LTD.</p>
+                    <p>사업자 등록번호 : 312-81-621529 대표이사 : 김대훈 대표 이메일 : DH_master@daum.net</p>
+                </div>
+
+            </div>
+        </footer>
+        <!--///////////////////////////footer#footer//////////////////////////////-->
+    </div>
+    <!--div#wrap-->
+</body></html>
